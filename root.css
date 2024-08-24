@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+
+
+}
+
+button:hover {
+    background-color: #f48e288f;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+
+
+
+    .navs {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav-right {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 3px 3px .3em rgba(0, 0, 0, 0.233), -1em 0 .4em rgba(0, 0, 0, 0.288);
+        padding: 10px;
+        border: none;
+    }
+
+    .heroes {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hero-mid {
+        display: none;
+
+    }
+
+    .hero {
+        display: block;
+        margin-top: 100px;
+    }
+
+    .hero-left-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .hero-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .food-item {
+        width: 100%;
+    }
+
+    .food-item img {
+        width: fit-content;
+    }
+
+    .hero-right {
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 30px;
+    }
+
+    .addresses {
+        width: 100%;
+
+        margin: 0;
+    }
+
+    .working-time {
+        width: 100%;
+    }
+
+    .products {
+        margin-top: 70px;
+        width: 100%;
+
+    }
+
+    .product-main {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .product {
+        width: 100%;
+        border-radius: 50px;
+
+        border: 1px solid rgba(0, 0, 0, 0.13);
+        padding-bottom: 70px;
+        transition-duration: .5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .services {
+        margin: 120px 0 0px 0;
+        width: 100%;
+
+    }
+
+    .main-service {
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+        margin: 0px 0;
+    }
+
+    .service {
+        width: 100%;
+
+    }
+
+    .testimonials {
+        margin: 100px 0 100px 0;
+
+    }
+
+    .testimonial {
+
+        margin: 100px 0 0px 0;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .testimonial-right img {
+        width: 100;
+    }
+
+    .news-letters {
+        margin: 100px 0;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .footers {
+        width: 100%;
+        gap: 0;
+    }
+}
