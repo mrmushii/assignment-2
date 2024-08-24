@@ -90,16 +90,19 @@
 .hero {
   display: flex;
   margin-top: 100px;
+  width: 100%;
 }
 
 .hero-left-main {
   display: flex;
   width: fit-content;
+  width: 100%;
 }
 
 .hero-mid {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .food-item {
@@ -130,9 +133,9 @@
 }
 
 .hero-right {
-  width: 40%;
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
