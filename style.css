@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* hero start */
 .nav-left {
   display: flex;
@@ -21,6 +23,7 @@
 }
 
 .search {
+  width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,6 +70,7 @@
 }
 
 .title h1 {
+  width: 100%;
   font-family: Montserrat;
   font-size: 96px;
   font-weight: 700;
@@ -85,6 +89,7 @@
   font-weight: 500;
   line-height: 21.94px;
   text-align: left;
+  width: 100%;
 }
 
 .hero {
@@ -95,7 +100,7 @@
 
 .hero-left-main {
   display: flex;
-  width: fit-content;
+
   width: 100%;
 }
 
@@ -105,7 +110,12 @@
   width: 100%;
 }
 
+.hero-mid img {
+  width: 100%;
+}
+
 .food-item {
+  width: 100%;
   text-align: center;
   box-shadow: 3px 3px .3em rgba(0, 0, 0, 0.233), -1em 0 .4em rgba(0, 0, 0, 0.288);
   display: flex;
@@ -118,6 +128,7 @@
 
 .food-item img {
   border-radius: 50px;
+  width: 100%;
 }
 
 .food-item p {
@@ -126,6 +137,8 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 21.94px;
+
+
 }
 
 .food-item span {
@@ -133,9 +146,9 @@
 }
 
 .hero-right {
-  width: 100%;
+  width: 70%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 
